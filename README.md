@@ -3,6 +3,12 @@
 ## Objectives
 
 - Use the `createStore()` method provided by the redux library.
+- 
+
+
+
+
+
 
 ## Introduction
 
@@ -14,6 +20,7 @@ Now let's think about which part of our application would belong in the official
 Redux library -- that is, which part of our codebase would be common to all
 applications. Well, probably not the reducer as our reducers seem unique to each
 React & Redux application. The reducers are unique because sometimes we have
+
 reducers that would add or remove items, or add or remove users, or edit users,
 etc. What these actions are and how the reducer manages the state is customized.
 Thus, the reducer would not be part of the redux library that other developers
